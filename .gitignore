@@ -1,0 +1,16 @@
+# Environnement virtuel Python
+.venv/
+
+# Clés API et secrets : ne JAMAIS les pousser sur GitHub
+.env
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Base vectorielle (elle se régénère avec le script d'indexation)
+chroma_db/
+
+# Fichiers système / éditeur
+.DS_Store
+.vscode/
